@@ -1,13 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-get_ipython().system('pip install yfinance')
+!pip install yfinance
 # !pip install pandas==1.3.3
 # !pip install requests==2.26.0
-get_ipython().system('pip install bs4')
+!pip install bs4
 # !pip install plotly==5.3.1
 
 import yfinance as yf
@@ -18,9 +12,9 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 #!pip install pandas==1.3.3
 #!pip install requests==2.26.0
-get_ipython().system('pip install bs4')
-get_ipython().system('pip install html5lib')
-get_ipython().system('pip install lxml==4.6.4')
+!pip install bs4 
+!pip install html5lib
+!pip install lxml==4.6.4
 #!pip install plotly==5.3.1
 import pandas as pd
 import requests
@@ -125,4 +119,3 @@ for table in soup.find_all('table'):
     
     
     # End 
-
